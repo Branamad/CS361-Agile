@@ -17,8 +17,8 @@
 }
 
 .poster img {
-    width: 250px;
-    height: 350px;
+    width: 350px;
+    height: 450px;
     object-fit: cover;
 }
 
