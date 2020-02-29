@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 	<!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="contact.css">
 
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -41,16 +41,22 @@
         </div><!--/.container-fluid -->
       </nav>
 
-<!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1 id="jumbo_text1">Watch this Movie</h1>
-        <p id="jumbo_text2">Subtext to promote the film</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="#" role="button">Watch Now &raquo;</a>
-        </p>
-      </div>
+    <div class="container">
+  <form action="action_page.php">
 
-    </div> <!-- /container -->
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 
 
 <script src="java.js"></script>
