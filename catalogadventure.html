@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+  <link rel="stylesheet" type="text/css" href="catalog.css">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="java.js" defer></script>
+  <!-- include javascript, jQuery FIRST -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"
+    defer></script>
+</head>
+
+<body>
+  <div class="body-container">
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+            aria-expanded="false" aria-controls="navbar">
+          </button>
+          <a class="navbar-brand" href="index.html">Movie Reviews</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">Browse Movies<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="catalogaction.html">Action</a></li>
+                <li><a href="catalogadventure.html">Adventure</a></li>
+                <li><a href="catalogcomedy.html">Comedy</a></li>
+                <li><a href="cataloghorror.html">Horror</a></li>
+                <li><a href="catalogromance.html">Romance</a></li>
+                <li><a href="catalogscifi.html">SciFi</a></li>
+                <li><a href="#">Other</a></li>
+              </ul>
+            </li>
+        </div>
+        <!--/.nav-collapse -->
+
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+
+    <!-- genre tab -->
+    <div class="genre-bar-container">
+      <div class="genre-bar">
+        <ul>
+          <li><a href="catalog.html">Action</a></li>
+          <li><a href="catalogadventure.html">Adventure</a></li>
+          <li><a href="catalogcomedy.html">Comedy</a></li>
+          <li><a href="cataloghorror.html">Horror</a></li>
+          <li><a href="catalogromance.html">Romance</a></li>
+          <li><a href="catalogscifi.html">SciFi</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- movie catalog -->
+    <div class="catalog-container">
+      <div class="catalog">
+        <div class="movie-item">
+          <a href="#">
+            <div class="info">
+              <div class="title">The Lord of the Rings:<br>The Return of the King</div>
+              <div class="score">8.9/10</div>
+            </div>
+            <div class="title">
+              <div class="poster">
+                <img src="./assets/img/LoRReturnofKing.jpg" alt="movie-poster">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="movie-item">
+          <a href="#">
+            <div class="info">
+              <div class="title">Avatar</div>
+              <div class="score">7.8/10</div>
+            </div>
+            <div class="title">
+              <div class="poster">
+                <img src="./assets/img/Avatar.jpg" alt="movie-poster">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="movie-item">
+          <a href="#">
+            <div class="info">
+              <div class="title">Raiders of the<br>Lost Ark</div>
+              <div class="score">7.7/10</div>
+            </div>
+            <div class="title">
+              <div class="poster">
+                <img src="./assets/img/LostArk.jpg" alt="movie-poster">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="movie-item">
+          <a href="#">
+            <div class="info">
+              <div class="title">Jurassic Park (1993)</div>
+              <div class="score">8.1/10</div>
+            </div>
+            <div class="title">
+              <div class="poster">
+                <img src="./assets/img/JurassicPark1993.jpg" alt="movie-poster">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="movie-item">
+          <a href="#">
+            <div class="info">
+              <div class="title">Harry Potter and<br>the Sorceror's Stone</div>
+              <div class="score">7.6/10</div>
+            </div>
+            <div class="title">
+              <div class="poster">
+                <img src="./assets/img/HPSorcerorStone.jpg" alt="movie-poster">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="movie-item">
+          <a href="#">
+            <div class="info">
+              <div class="title">Up<br></div>
+              <div class="score">8.2/10</div>
+            </div>
+            <div class="title">
+              <div class="poster">
+                <img src="./assets/img/Up.jpg" alt="movie-poster">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="movie-item">
+          <a href="#">
+            <div class="info">
+              <div class="title">Spider-Man 3(2007)</div>
+              <div class="score">6.2/10</div>
+            </div>
+            <div class="title">
+              <div class="poster">
+                <img src="./assets/img/Spiderman3.jpg" alt="movie-poster">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="movie-item">
+          <a href="#">
+            <div class="info">
+              <div class="title">Pirates of the Caribbean:<br>The Curse of the Black Pearl</div>
+              <div class="score">8.0/10</div>
+            </div>
+            <div class="title">
+              <div class="poster">
+                <img src="./assets/img/PotCBlackPearl.jpg" alt="movie-poster">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="movie-item">
+          <a href="#">
+            <div class="info">
+              <div class="title">Avengers</div>
+              <div class="score">8.0/10</div>
+            </div>
+            <div class="title">
+              <div class="poster">
+                <img src="./assets/img/Avengers.jpg" alt="movie-poster">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="movie-item">
+          <a href="#">
+            <div class="info">
+              <div class="title">Stardust</div>
+              <div class="score">7.6/10</div>
+            </div>
+            <div class="title">
+              <div class="poster">
+                <img src="./assets/img/Stardust.jpg" alt="movie-poster">
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+© 2020 GitHub, Inc.
